@@ -18,8 +18,7 @@ Tamanho de telas para cada dispositivo
 body, html{
     height: 100vh;
     width: 100vw;
-    max-width: 992px;
-    min-width: 768px;
+  
     
 
 
@@ -32,20 +31,27 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8vh;
+    height: 5vh;
+    width: 100vw;
     
 }
 
 .logo{
-    width: 100px;
+    width:50px;
     
+}
+nav{
+    width: 100vw;
+    margin: 0px 6px;
+    padding-bottom: 10px ;
 }
 a{
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 6px;
     color:white;
     font-weight: bold;
-    padding: 4px;
+    padding: 1px;
+    
     
 }
 
@@ -55,9 +61,24 @@ main{
 }
 .background{
     width: 100%;
+    background-image: url(/imagens/recepcao.png);
+    height: 15vh;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
-img, .background{
- width:100%;
+.background h1{
+    width: 80px;
+    font-size: 6px;
+    color: white;
+    padding-top: 40px ;
+    text-shadow:  2px 1px 2px rgb(78, 73, 73);
+    font-weight: 300;
+    margin: 0px 2px;
 }
+
+ 
+
  
 
