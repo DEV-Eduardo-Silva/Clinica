@@ -44,13 +44,15 @@ nav{
     width: 100vw;
     margin: 0px 6px;
     padding-bottom: 10px ;
+    text-align: right;
 }
 a{
     text-decoration: none;
-    font-size: 6px;
+    font-size: 8px;
     color:white;
     font-weight: bold;
     padding: 1px;
+
     
     
 }
@@ -62,7 +64,7 @@ main{
 .background{
     width: 100%;
     background-image: url(/imagens/recepcao.png);
-    height: 15vh;
+    height: 20vh;
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,12 +72,68 @@ main{
 }
 .background h1{
     width: 80px;
-    font-size: 6px;
+    font-size: 10px;
     color: white;
-    padding-top: 40px ;
+    padding-top: 30px ;
     text-shadow:  2px 1px 2px rgb(78, 73, 73);
     font-weight: 300;
     margin: 0px 2px;
+}
+.sobre{
+    width: 100%;
+    height: 15vh;
+    margin: 20px 0px;
+    padding: 5px;
+   
+}
+.sobre h3{
+    margin: auto;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    
+}
+.sobre p{
+    font-size: 10px;
+    margin: 8px 2px;
+    text-align: center;
+    color: rgb(97, 95, 95);
+    
+} 
+.container{
+    
+    width: 100%;
+    height: 50%;
+}
+.imagem-main{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+
+.imagem-main img{
+    width: 80px;
+    display: flex;
+    height: 100px;
+    margin: 0 auto;
+}
+.formulario{
+   width: 250px;
+   
+   margin: auto;
+
+}
+.formulario> h3{
+    font-size: 10px;
+  
+    color: gray;
+    
+}
+.formulario> ul{
+    font-size: 10px;
+    padding: 5px;
+    color: rgb(97, 95, 95) ;
+    text-shadow: text-shadow:  2px 1px 2px rgb(78, 73, 73);
 }
 
  
