@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/*
+Versão tablet
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    header{
+        height: 6vh;    
+        
+    }
+    .logo{
+        width:80px;
+        margin: 0px 3px;
+        
+    }
+    
+    a{  
+        font-size: 12px;
+          
+    }
+    .background{
+        width: 100vw;
+        height: 40vh;
+       
+    
+    }
+    .background> h1{
+        font-size: 15px;
+        width: 180px;
+        padding-top: 120px;
+        margin: 0 10px;
+    }
+    .sobre h3{
+        font-size: 18px;  
+    }
+    .sobre p{
+        font-size: 13px;
+        width: 80vw;
+        text-align: center;
+        margin: 3px auto;
+    }
+    .imagem-main{
+        display: flex;
+        margin: 20px auto;
+        width: 50%; 
+        align-content: center;
+       
+    }
+    .imagem-main img{
+        width: 130px;  
+        height: 180px;
+        
+    }
+    .formulario{
+        width: 300px; 
+     }
+     .formulario> h3{
+        font-size: 16px; 
+    }
+    .formulario> ul{
+        font-size: 13px;
+        padding: 8px;
+    }
+
+}   
+        
