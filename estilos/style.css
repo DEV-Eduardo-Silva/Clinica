@@ -32,7 +32,7 @@ header{
     justify-content: space-around;
     align-items: center;
     height: 5vh;
-    width: 100vw;
+    width: 100%;
     
 }
 
@@ -174,7 +174,7 @@ small{
     
 }
 .card{
-    box-shadow: 2px 0px 0px 1px rgb(185, 176, 176);
+    box-shadow: 1px 2px 1px rgb(114, 109, 109);
     height: 75px;
     width: 100px;   
 }
@@ -185,22 +185,31 @@ small{
     color: rgb(97, 95, 95);
     padding: 5px;
  }
- .botao> h3{
-    margin: 20px auto;
-    padding: 5px 0px;
-    text-align: center;
-    color: white;
-    background-color: rgb(27, 164, 168);
-    width: 40vw;
-    height: 33px;
-    font-size: 14px;
-    border-radius: 4px;
-    text-shadow: 0px 1px  rgb(158, 152, 152);
-    box-shadow: 1px 2px 3px rgb(114, 109, 109);
+
+ button:hover{
+    background-color: rgb(45, 114, 114);
+    cursor: pointer;
+ }
+
+ 
+button{
+    background-color: rgb(59, 185, 185);
+    width: 100%;
+    height: 32px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(219, 215, 206);
+}
+.botao1{
+    width: 30%;
+    padding: 8px 5px;
+    margin: 3px auto;
+    
+   
+   
  }
  .botao> h2{
-    margin: 10px auto;
-    padding: 10px 0px;
+    margin: 2px auto;
+    padding: 10px 2px;
     text-align: center;
     color: gray;
     font-size: 14px;
