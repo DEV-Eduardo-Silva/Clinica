@@ -40,17 +40,18 @@ header{
 nav{
     width: 100vw;
     text-align: center;
-    margin: 15px 0px;
+    margin: 11px 0px;
     padding-top: 5px;
     border-top: 1px solid rgb(105, 103, 103); 
+    
 }
 a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     color:#f7f2f2;
     font-weight: 200;
-    margin: 0px 5px;
-    padding: 1px;
+    margin: 0px 3px;
+    padding: 10px;
     text-shadow: 0px 1px 2px rgb(138, 127, 127);
     
 }
@@ -70,13 +71,13 @@ main{
 
 }
 .background h1{
-    width: 400px;
-    font-size: 20px;
+    width: 350px;
+    font-size: 18px;
     color: #f7f2f2;
     padding-top: 100px;
     font-weight: bold;
     text-align: center;
-    margin: 0 5px;
+    margin: 0 auto;
 }
 /*Seção Sobre a Clínica*/
 .sobre{
@@ -118,6 +119,7 @@ main{
 .formulario{
    width: 60vw;
    margin: 2px auto;
+  
 
 }
 .formulario> h3{
@@ -130,6 +132,7 @@ main{
     font-size: 14px;
     padding:5px 0px;
     color: #6d7d7d;
+   
    
 }
 /*Cards*/
@@ -235,7 +238,7 @@ button{
     background-color: rgb(1, 87, 87);
     margin: auto;
     display: block;
-    height: 20vh;
+    height: 30vh;
    
    
  }

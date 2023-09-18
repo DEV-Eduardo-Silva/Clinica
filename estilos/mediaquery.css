@@ -3,124 +3,165 @@
 Versão tablet
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 863px) {
 
-    header{
-        height: 6vh;
-        flex: 1 0 100%;    
-        
-    }
-    .logo{
-        width:80px;
-        margin: 0px 3px;
-        
-    }
+   
+header{
+    display: flex; 
+    height: 7vh; 
+}
+.logo{
+  position: relative;
+  left: 10px;
+  
+}
+nav{
+    width: 50vw;
+    text-align: right;
+    margin: 11px 8px;
+    border: none;
+    padding-top: 10px;  
     
-    a{  
-        font-size: 12px;
-          
-    }
-    .background{
-        width: 100vw;
-        height: 40vh;
-        flex: 0 1 80vw;
-       
-    
-    }
-    .background> h1{
-        font-size: 15px;
-        width: 180px;
-        padding-top: 120px;
-        margin: 0 10px;
-    }
-    .sobre h3{
-        font-size: 18px;  
-    }
-    .sobre p{
-        font-size: 13px;
-        width: 80vw;
-        text-align: center;
-        margin: 3px auto;
-    }
-    .imagem-main{
-        display: flex;
-        margin: 20px auto;
-        width: 50%; 
-        align-content: center;
-       
-    }
-    .imagem-main img{
-        width: 130px;  
-        height: 180px;
-        
-    }
-    .formulario{
-        width: 300px; 
-     }
-     .formulario> h3{
-        font-size: 16px; 
-    }
-    .formulario> ul{
-        font-size: 13px;
-        padding: 8px;
-    }
-    .sobre2 h3{
-        font-size: 18px;
-    }
-    .sobre2 p{
-        font-size: 13px;
-       
-    }
-    .tres-card{
-        
-        width: 100%;
-       justify-content: center;
-       gap: 10px;
-    }
-    .card> img{
-        width: 160px;
-        height: 120px;
-        
-    }
-    .card{
-        box-shadow: 1px 1px 1px rgb(114, 109, 109);
-        height: 150px;
-        width: 162px;   
-    }
-    small{
-        font-size: 14px;
-       margin: 10px;
-       padding: 5px 30px;
-       
-    }
-    button{
-        background-color: rgb(59, 185, 185);
-        width: 100%;
-        height: 40px;
-    }  
-    .contato> h2{
-        font-size: 18px;
-     }
-     .contato> P{
-        font-size: 14px;
-     }
-     .contato> iframe{
-        width: 100vw;
-        height: 30vh;
-       padding: 0px 10px;
-     }
-     .final{
-        height: 25vh;
-       
-     }
-     .img-logo2{
-        margin: auto;
-        width: 10%;
-        padding: 5px 0px;
-     }
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+   
+}
+/*Seção background*/
 
-    
+main{
+    width: 100vw;
+    height: 100vh;
+}
+.background{
+    height: 27vh; 
+}
+.background h1{
+    width: 450px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+/*Seção Sobre a Clínica*/
+.sobre{
+    width: 95%;
+   
+}
+.sobre h3,{
+    font-size: 20px; 
+}
+.sobre p{
+    font-size: 16px;
+}
+/*Adicionar imagem do tablet*/
 
+.imagem-main{
+    display: flex;
+    margin: 5px auto;
+    width: 90vw;
+}
+.imagem-main img{
+    width: 180px ;
+    display: flex;
+    height: 180px;
+    margin: 0 auto; 
+    position: relative;
+    left: 65px;
+}
+/*formulário*/
+ 
+.formulario{
+    position: relative;
+    left: 45px;
+}
+ .formulario> h3{
+     font-size: 18px; 
+ }
+ .formulario> ul{
+     font-size: 16px;
+     padding:3px 0px;
+    
+ }
+/*Cards*/
+.sobre2 h3{
+    margin: auto;
+    text-align: center;
+    color: #6d7d7d;
+    font-size: 20px;
+}
+.sobre2 p{
+    font-size: 16px;
+    
+    
+} 
+.tres-card{
+    display: flex;
+    width: 100%;
+    height: 63%;
+    gap: 12px;
+   
+}
+small{
+    font-size: 16px;
+   position: relative;
+   left: 50px;
+   top: 5px;
+    
+}
+.card{
+    box-shadow: 1px 2px 1px rgb(204, 196, 196);
+    height: 260px;
+    width: 280px;  
+}
+/*Botõ e contato*/
+.contato> p{
+    font-size: 16px;
+    margin: 8px auto;
+ }
+ 
+button{
+    width: 95%;
+    height: 40px;
+    border-radius: 8px;
+   
+}
+.botao1{
+    width: 50%;
+    height: 40px;   
+ }
+ .contato> h3{
+    font-size: 20px;
+ }
+ .contato> iframe{
+    width: 100vw;
+    height: 25vh;
+    margin: 0 auto; 
+    justify-content: center;
+    align-items: center;
+ }
+ /*Footer*/
+ .final{
+    width: 100vw;
+    background-color: rgb(1, 87, 87);
+    margin: auto;
+    display: block;
+    height: 30vh;
+   
+   
+ }
+ .img-logo2{
+    margin: auto;
+    width: 10%;
+    padding: 5px 0px;
+ }
+
+ .logo2{
+    width: 130px;
+    margin-top: 12px;
+ }
+ .final> p{
+    font-size: 16px;
+   
 
 }   
         
