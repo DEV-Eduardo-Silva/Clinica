@@ -94,3 +94,28 @@ main> h2{
     padding: 5px 0px;
     font-size: 16px;
 }
+.horarios1{
+    display: flex;
+    width: 100%;
+    height: 170px;
+    justify-content: center;
+   margin:  2px auto;
+}
+.horarios1> img{
+    display: none;
+}
+th{
+background-color: #06c2bf;
+color: #ffffff;
+margin: 0 5px;
+padding: 5px 10px;
+}
+.lista1> td{
+    background-color: #cac4c4;
+    color: #6b6262;
+    font-size: 13px;
+    width: 100%;
+}
+td{
+    font-size: 13px;
+}
